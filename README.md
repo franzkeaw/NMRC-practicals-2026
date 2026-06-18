@@ -54,9 +54,9 @@ perform a certain action, e.g. to calculate something or to display some data pl
 on the small "play" button in the top left corner of each cell. <br>
 
 For each notebook, it is important that you always run the very first cell in the top, before you start doing anything else.
-That is because the first cell tells the notebook which python code to import (from GitHub) to make the other cells run. 
+That is because the first cell tells the notebook which python code to import to make the other cells run. 
 Note that this "import" is only alive as long as you have the notebook open. If you close it, or shutdown your laptop and 
-open the notebook the next day, you need to do this again. 
+open the notebook the next day, you need to run the first cell again, before you can run any other code in the notebook. 
 
 Go ahead and open the first notebook "0_getting_started.ipynb", run the first cell and then continue reading
 through the rest of the notebook, following the instructions in there.
