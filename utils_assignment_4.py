@@ -22,7 +22,7 @@ class ffnn_simulation():
 
         # the data, shuffled and split between train and test sets
         x_train = _x_train.reshape(60000, 784)
-        x_test = x_test.reshape(10000, 784)
+        x_test = _x_test.reshape(10000, 784)
         x_train = x_train.astype('float32')
         x_test = x_test.astype('float32')
         x_train /= 255
