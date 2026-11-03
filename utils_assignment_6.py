@@ -70,7 +70,7 @@ class HopfieldNet():
 
 # Widgets
 ne_widget = widgets.BoundedIntText(value=20, min=1, max=100, description='Number of updates:')
-p_widget = widgets.FloatSlider(value=0.1, min=0, max=0.5, step=0.05, description='Amount of noise:')
+p_widget = widgets.FloatSlider(value=0.1, min=0, max=1.0, step=0.05, description='Noise:')
 sel_input = widgets.Dropdown(options=['A', 'B'], value='A', description='Input:')
 
 
