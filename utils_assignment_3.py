@@ -50,7 +50,7 @@ def plot_data_boundary_accuracy(neuron, X, y, j=None):
     plot_line = lambda x: (-bias - weights[0] * x) / (weights[1] + 1e-5)
 
     f, ax = plt.subplots(1, 2, figsize=[15, 5])
-    ax[0].scatter(X[y == 0, 0], X[y == 0, 1], color='g', s=40)
+    ax[0].scatter(X[y == 0, 0], X[y == 0, 1], color='b', s=40)
     ax[0].scatter(X[y == 1, 0], X[y == 1, 1], color='r', s=40)
 
     if j is not None:
